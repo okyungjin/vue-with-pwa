@@ -3,6 +3,9 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+// Service Worker
+import './registerServiceWorker'
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')
